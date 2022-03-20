@@ -1,0 +1,6 @@
+
+
+Eclipse         vs           IntelliJ
+workSpace                     Project
+Project                        Module
+
