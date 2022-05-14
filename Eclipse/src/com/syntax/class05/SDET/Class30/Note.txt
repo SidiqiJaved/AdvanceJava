@@ -1,0 +1,40 @@
+
+
+Maps in Java
+Map is an interface that allows us to store the data in key value pairs
+
+
+Benifits:
+
+1. we can store two values inside the maps
+2. searching is very effecient in maps
+
+
+types of maps
+1. HashMap, 2. LinkedHashMap , 3. TreeMap
+
+1  HashMap:
+1. Insertion order is not maintained (Downside)
+2. insertion and retrieval is fastest (Upside)
+
+2   LinkedHashMap
+1. insertion order is maintained (Upside)
+2. insertion spped is same as hashmap but retrieval speed is slowest
+in all the maps.
+
+3   TreeMap:
+
+1. Data is stored in natural order by default
+2. insertion speed is slowest but retrieval speed is better than
+linkedHasMap but slower than HashMap
+
+Map<String, String> students = new Map<>()
+
+
+
+DifferencebetweenSet,ListandMapinJava?
+• Set, List and Map are 3 important interface of Java collection framework.
+ o List provides ordered and indexed collection which may contain duplication .
+ o Set provides un-ordered collection of unique objects. Set doesn’t allowed duplication . List and Set are both extend
+collection interface.
+ o Map provides a data structure based on Key Value. Key is always unique, value can be dupl.

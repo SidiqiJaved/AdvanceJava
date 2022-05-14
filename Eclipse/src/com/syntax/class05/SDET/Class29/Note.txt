@@ -1,0 +1,49 @@
+
+
+Note:
+
+There are many many types of Hashset and there are many types of  list
+
+We are limiting our self to those we use in testing
+
+
+Set in Java:
+
+Set is an interface in collections framework which is implemented by many classes for example.
+
+ Hashset, LinkedHashSet and TreeHashSet
+
+
+Properties of SEt:
+
+All Sets don't allow duplicates
+
+HashSet:
+
+1. HashSet does not maintain the insertion order
+2. it is the fastest in al lsets
+3. it is most widely used Set.
+
+
+LinkedHashSet:
+
+1. Maintain the insertion order
+2. slower than HashSet but faster than TreeSet specially the insertions
+
+TreeSet:
+1. Sorts the data in natural order . for number in increasing order
+2. it is the slowest when it comes to store the data.
+
+
+When to use which type of Set:
+
+1. If We dont care about insertion order and data being sorted always use HashSet
+2. If we need the inseration order we dont have much choice, we have to use LinedHashSet
+but if we dont care about the insertion order we can compare it with TreeSet
+
+LinkedHasSet                     Vs               TreetHashSet
+
+Insersation is not slow                          Slowest insertion
+Retrievel is super slow                      Slower than HashSet but faster than LinkedHashSet
+
+
